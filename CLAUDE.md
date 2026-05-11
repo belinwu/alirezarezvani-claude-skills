@@ -124,7 +124,7 @@ See [standards/git/git-workflow-standards.md](standards/git/git-workflow-standar
 
 ## Current Version
 
-**Version:** v2.4.4 (latest)
+**Version:** v2.4.5 (latest)
 
 **v2.4.x Highlights — Reliability Portfolio (Phase 1–4):**
 - **slo-architect** (Phase 4 — keystone) — SLO/SLI/error-budget discipline per Google SRE Workbook. 3 stdlib Python tools (`slo_designer`, `error_budget_calculator` with multi-window burn-rate alerts, `slo_review`), 4 reference docs, asset templates, `/slo-design` slash command. Engineering-advanced bundle 49 → 50.
@@ -228,6 +228,6 @@ This repository publishes skills to **ClawHub** (clawhub.com) as the distributio
 
 ---
 
-**Last Updated:** May 10, 2026
-**Version:** v2.4.4
+**Last Updated:** May 11, 2026
+**Version:** v2.4.5
 **Status:** 246 skills deployed across 9 domains, 33 marketplace plugins, docs site live
