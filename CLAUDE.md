@@ -10,6 +10,19 @@ This is a **comprehensive skills library** for Claude AI and Claude Code - reusa
 
 **Key Distinction**: This is NOT a traditional application. It's a library of skill packages meant to be extracted and deployed by users into their own Claude workflows.
 
+## Maintainer-Local Folders (gitignored)
+
+The following exist on the maintainer's disk but are excluded from the public GitHub tree so cloners only see production skill packages:
+
+- `documentation/` — sprint plans, strategy, implementation roadmaps
+- `eval-workspace/` — Tessl evaluation outputs
+- `megaprompts/` — pre-skill draft specs (Path-B source material)
+- `tests/` — pytest suite (run locally; not in CI)
+- `.autoresearch/` — autoresearch agent workspace
+- `AUDIT_REPORT.md` — internal audit snapshots
+
+In-repo references to paths under these folders (e.g. `documentation/implementation/...`) resolve locally for the maintainer but appear as dead links on GitHub. This is intentional.
+
 ## Navigation Map
 
 This repository uses **modular documentation**. For domain-specific guidance, see:
